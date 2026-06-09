@@ -1,0 +1,6 @@
+{
+  "penduduk": { "value": "839", "unit": "Jiwa" },
+  "jorong":   { "value": "3",   "unit": "Jorong" },
+  "luas":     { "value": "13,40", "unit": "km²" },
+  "umkm":     { "value": "25+", "unit": "UMKM" }
+}

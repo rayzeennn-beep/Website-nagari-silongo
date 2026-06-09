@@ -1,0 +1,13 @@
+{
+  "photos": [
+    { "id": 1, "category": "Alam",       "title": "Hutan Tropis Nagari",    "img": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?q=80&w=800&auto=format&fit=crop" },
+    { "id": 2, "category": "Budaya",     "title": "Kesenian Tradisional",    "img": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=800&auto=format&fit=crop" },
+    { "id": 3, "category": "Pertanian",  "title": "Sawah Terasering",        "img": "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=800&auto=format&fit=crop" },
+    { "id": 4, "category": "Pertanian",  "title": "Ladang Padi",             "img": "https://images.unsplash.com/photo-1500076656116-558758c991c1?q=80&w=800&auto=format&fit=crop" },
+    { "id": 5, "category": "Wisata",     "title": "Sungai Aro",              "img": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?q=80&w=800&auto=format&fit=crop" },
+    { "id": 6, "category": "Sosial",     "title": "Gotong Royong",           "img": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=800&auto=format&fit=crop" },
+    { "id": 7, "category": "Budaya",     "title": "Rumah Gadang",            "img": "https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?q=80&w=800&auto=format&fit=crop" },
+    { "id": 8, "category": "Alam",       "title": "Panorama Pegunungan",     "img": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop" },
+    { "id": 9, "category": "UMKM",       "title": "Produk Lokal",            "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&auto=format&fit=crop" }
+  ]
+}

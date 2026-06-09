@@ -1,0 +1,31 @@
+[build]
+  command = "npm install -g pnpm && pnpm install && pnpm run build"
+  publish = "dist/public"
+
+[build.environment]
+  NODE_VERSION  = "20"
+  PORT          = "3000"
+  BASE_PATH     = "/"
+
+[[redirects]]
+  from   = "/admin"
+  to     = "/admin/"
+  status = 301
+  force  = true
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"

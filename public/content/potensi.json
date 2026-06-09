@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "Pertanian & Perkebunan",
+      "description": "Lahan subur menghasilkan padi, karet, kelapa sawit, dan berbagai komoditi unggulan. Didukung irigasi teknis dan kelompok tani yang aktif berinovasi.",
+      "tag": "Sektor Utama",
+      "img": "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=800&auto=format&fit=crop",
+      "colorFrom": "from-green-600",
+      "colorTo": "to-emerald-800"
+    },
+    {
+      "title": "UMKM & Ekonomi Kreatif",
+      "description": "25+ pelaku usaha aktif menghasilkan produk olahan pangan, kerajinan anyaman, dan batik Silongo yang sudah menembus pasar regional Sumatera Barat.",
+      "tag": "Ekonomi",
+      "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&auto=format&fit=crop",
+      "colorFrom": "from-amber-500",
+      "colorTo": "to-yellow-700"
+    },
+    {
+      "title": "Hutan & Keanekaragaman Hayati",
+      "description": "Kawasan hutan nagari seluas ratusan hektar menyimpan biodiversitas tinggi — flora endemik, fauna langka, dan sumber mata air yang dijaga bersama.",
+      "tag": "Lingkungan",
+      "img": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?q=80&w=800&auto=format&fit=crop",
+      "colorFrom": "from-teal-600",
+      "colorTo": "to-green-900"
+    },
+    {
+      "title": "Budaya & Warisan Adat",
+      "description": "Kekayaan tradisi Minangkabau: randai, saluang, silek, dan berbagai upacara adat yang masih hidup dan dilestarikan oleh Ninik Mamak dan generasi muda.",
+      "tag": "Pariwisata Budaya",
+      "img": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=800&auto=format&fit=crop",
+      "colorFrom": "from-purple-600",
+      "colorTo": "to-indigo-800"
+    },
+    {
+      "title": "Peternakan & Perikanan",
+      "description": "Peternakan sapi, kambing, dan unggas berkembang pesat. Budidaya ikan mas dan ikan nila di kolam dan sungai memberikan protein hewani berkualitas.",
+      "tag": "Ketahanan Pangan",
+      "img": "https://images.unsplash.com/photo-1500076656116-558758c991c1?q=80&w=800&auto=format&fit=crop",
+      "colorFrom": "from-blue-500",
+      "colorTo": "to-cyan-700"
+    }
+  ]
+}

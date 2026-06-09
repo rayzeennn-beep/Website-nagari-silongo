@@ -1,0 +1,21 @@
+{
+  "judul": "Mengenal Nagari Silongo",
+  "paragraf1": "Nagari Silongo merupakan salah satu nagari yang terletak di Kecamatan Lubuk Tarok, Kabupaten Sijunjung, Provinsi Sumatera Barat. Dengan luas wilayah 13,40 km², nagari ini dihuni oleh sekitar 839 jiwa yang tersebar di tiga jorong: Jorong Silongo, Jorong Kampung Tengah, dan Jorong Sei Aro.",
+  "paragraf2": "Masyarakat Nagari Silongo hidup rukun dengan menjunjung tinggi adat istiadat Minangkabau. Sektor pertanian (padi, karet, sawit) menjadi tulang punggung ekonomi, dilengkapi potensi wisata alam dan kekayaan budaya yang terus dilestarikan dari generasi ke generasi.",
+  "visi": "Terwujudnya Nagari Silongo yang Maju, Mandiri, dan Sejahtera Berlandaskan Adat Basandi Syarak, Syarak Basandi Kitabullah.",
+  "misi": [
+    "Meningkatkan kualitas pelayanan publik yang transparan dan akuntabel",
+    "Mengembangkan potensi pertanian, peternakan, dan UMKM berbasis kearifan lokal",
+    "Memperkuat infrastruktur nagari dan konektivitas antar jorong",
+    "Melestarikan budaya Minangkabau dan kearifan lokal nagari",
+    "Meningkatkan kualitas SDM melalui pendidikan dan pemberdayaan masyarakat"
+  ],
+  "gambar_utama": "",
+  "gambar_sekunder": "",
+  "highlights": [
+    { "label": "Berdiri", "value": "Abad XVII", "icon": "Calendar" },
+    { "label": "Jorong", "value": "3 Wilayah", "icon": "MapPin" },
+    { "label": "Adat", "value": "Minangkabau", "icon": "Shield" },
+    { "label": "Bahasa", "value": "Minang / Indonesia", "icon": "Globe" }
+  ]
+}

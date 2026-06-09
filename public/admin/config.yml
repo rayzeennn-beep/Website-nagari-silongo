@@ -1,0 +1,221 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Netlify Identity — invite-only (no public registration)
+# Enable in: Netlify Dashboard → Identity → Registration → Invite only
+
+media_folder: "public/assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+locale: id
+
+# ──────────────────────────────────────────────
+# COLLECTIONS
+# ──────────────────────────────────────────────
+
+collections:
+
+  # ── HERO SECTION ──────────────────────────
+  - name: "hero"
+    label: "🏠 Hero / Beranda"
+    files:
+      - name: "hero"
+        label: "Hero Section"
+        file: "public/content/hero.json"
+        format: json
+        fields:
+          - { label: "Judul Utama", name: "judul", widget: "string", default: "Nagari Silongo" }
+          - { label: "Subtitle / Lokasi", name: "subtitle", widget: "string" }
+          - { label: "Deskripsi Singkat", name: "deskripsi", widget: "text" }
+          - { label: "Teks Tombol Jelajahi", name: "tombol_jelajahi", widget: "string", default: "Jelajahi Nagari" }
+          - { label: "Teks Tombol Informasi", name: "tombol_informasi", widget: "string", default: "Informasi Desa" }
+
+  # ── STATISTIK ─────────────────────────────
+  - name: "statistik"
+    label: "📊 Statistik Desa"
+    files:
+      - name: "statistik"
+        label: "Data Statistik"
+        file: "public/content/statistik.json"
+        format: json
+        fields:
+          - label: "Jumlah Penduduk"
+            name: "penduduk"
+            widget: "object"
+            fields:
+              - { label: "Angka", name: "value", widget: "string", default: "839" }
+              - { label: "Satuan", name: "unit", widget: "string", default: "Jiwa" }
+          - label: "Jumlah Jorong"
+            name: "jorong"
+            widget: "object"
+            fields:
+              - { label: "Angka", name: "value", widget: "string", default: "3" }
+              - { label: "Satuan", name: "unit", widget: "string", default: "Jorong" }
+          - label: "Luas Wilayah"
+            name: "luas"
+            widget: "object"
+            fields:
+              - { label: "Angka", name: "value", widget: "string", default: "13,40" }
+              - { label: "Satuan", name: "unit", widget: "string", default: "km²" }
+          - label: "Jumlah UMKM"
+            name: "umkm"
+            widget: "object"
+            fields:
+              - { label: "Angka", name: "value", widget: "string", default: "25+" }
+              - { label: "Satuan", name: "unit", widget: "string", default: "UMKM" }
+
+  # ── PROFIL ────────────────────────────────
+  - name: "profil"
+    label: "🏘️ Profil Nagari"
+    files:
+      - name: "profil"
+        label: "Profil Nagari"
+        file: "public/content/profil.json"
+        format: json
+        fields:
+          - { label: "Judul", name: "judul", widget: "string", default: "Mengenal Nagari Silongo" }
+          - { label: "Paragraf 1", name: "paragraf1", widget: "text" }
+          - { label: "Paragraf 2", name: "paragraf2", widget: "text" }
+          - { label: "Visi", name: "visi", widget: "text" }
+          - label: "Misi"
+            name: "misi"
+            widget: "list"
+            field: { label: "Poin Misi", name: "poin", widget: "string" }
+          - { label: "Gambar Utama", name: "gambar_utama", widget: "image", required: false }
+          - { label: "Gambar Sekunder", name: "gambar_sekunder", widget: "image", required: false }
+          - label: "Highlight Fakta"
+            name: "highlights"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Nilai", name: "value", widget: "string" }
+              - { label: "Ikon (nama lucide)", name: "icon", widget: "string" }
+
+  # ── PEMERINTAHAN ──────────────────────────
+  - name: "pemerintahan"
+    label: "🏛️ Pemerintahan"
+    files:
+      - name: "pemerintahan"
+        label: "Struktur Pemerintahan"
+        file: "public/content/pemerintahan.json"
+        format: json
+        fields:
+          - label: "Perangkat Nagari"
+            name: "officials"
+            widget: "list"
+            fields:
+              - { label: "Nama Lengkap", name: "name", widget: "string" }
+              - { label: "Jabatan", name: "title", widget: "string" }
+              - { label: "Inisial (2 huruf)", name: "initials", widget: "string" }
+              - { label: "Masa Jabatan", name: "period", widget: "string", default: "2021 – 2027" }
+              - { label: "Pendidikan", name: "pendidikan", widget: "string", default: "S1 / Sederajat" }
+              - { label: "Pemimpin Utama?", name: "isLeader", widget: "boolean", default: false }
+              - { label: "Foto (opsional)", name: "foto", widget: "image", required: false }
+
+  # ── POTENSI ───────────────────────────────
+  - name: "potensi"
+    label: "🌱 Potensi Desa"
+    files:
+      - name: "potensi"
+        label: "Potensi Desa"
+        file: "public/content/potensi.json"
+        format: json
+        fields:
+          - label: "Potensi"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Judul", name: "title", widget: "string" }
+              - { label: "Deskripsi", name: "description", widget: "text" }
+              - { label: "Tag / Kategori", name: "tag", widget: "string" }
+              - { label: "Gambar", name: "img", widget: "image", required: false }
+              - { label: "Warna Gradien Kiri", name: "colorFrom", widget: "string", default: "from-green-600", hint: "Contoh: from-green-600" }
+              - { label: "Warna Gradien Kanan", name: "colorTo", widget: "string", default: "to-emerald-800", hint: "Contoh: to-emerald-800" }
+
+  # ── WISATA ────────────────────────────────
+  - name: "wisata"
+    label: "🗺️ Wisata & Budaya"
+    files:
+      - name: "wisata"
+        label: "Wisata & Budaya"
+        file: "public/content/wisata.json"
+        format: json
+        fields:
+          - label: "Destinasi Wisata"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Nama Tempat", name: "name", widget: "string" }
+              - { label: "Kategori", name: "category", widget: "select", options: ["Alam", "Budaya", "Kuliner", "Religi", "Olahraga"] }
+              - { label: "Deskripsi", name: "description", widget: "text" }
+              - { label: "Gambar", name: "img", widget: "image", required: false }
+              - { label: "Jarak dari Pusat (km)", name: "distance", widget: "string", required: false }
+
+  # ── BERITA ────────────────────────────────
+  - name: "berita"
+    label: "📰 Berita"
+    files:
+      - name: "berita"
+        label: "Berita Nagari"
+        file: "public/content/berita.json"
+        format: json
+        fields:
+          - label: "Daftar Berita"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Judul Berita", name: "title", widget: "string" }
+              - { label: "Tanggal", name: "date", widget: "string", hint: "Format: DD Bulan YYYY, contoh: 10 Juni 2024" }
+              - { label: "Kategori", name: "category", widget: "select", options: ["Pemerintahan", "Ekonomi", "Budaya", "Sosial", "Kesehatan", "Pendidikan", "Infrastruktur"] }
+              - { label: "Thumbnail", name: "img", widget: "image", required: false }
+              - { label: "Ringkasan (excerpt)", name: "excerpt", widget: "text" }
+              - { label: "Isi Berita Lengkap", name: "content", widget: "markdown" }
+
+  # ── GALERI ────────────────────────────────
+  - name: "galeri"
+    label: "🖼️ Galeri Foto"
+    files:
+      - name: "galeri"
+        label: "Galeri Foto"
+        file: "public/content/galeri.json"
+        format: json
+        fields:
+          - label: "Foto Galeri"
+            name: "photos"
+            widget: "list"
+            fields:
+              - { label: "Judul Foto", name: "title", widget: "string" }
+              - { label: "Kategori", name: "category", widget: "select", options: ["Alam", "Budaya", "Pertanian", "Wisata", "Sosial", "UMKM", "Infrastruktur"] }
+              - { label: "File Foto", name: "img", widget: "image" }
+
+  # ── KONTAK ────────────────────────────────
+  - name: "kontak"
+    label: "📞 Kontak"
+    files:
+      - name: "kontak"
+        label: "Informasi Kontak"
+        file: "public/content/kontak.json"
+        format: json
+        fields:
+          - { label: "Alamat Kantor", name: "alamat", widget: "text" }
+          - { label: "Nomor WhatsApp", name: "whatsapp", widget: "string", hint: "Format: +6285XXXXXXXXXX" }
+          - { label: "Email Resmi", name: "email", widget: "string" }
+          - { label: "Jam Pelayanan", name: "jam", widget: "string", default: "Senin – Jumat, 08.00 – 16.00 WIB" }
+          - { label: "Google Maps Embed URL", name: "maps_url", widget: "string", required: false }
+
+  # ── FOOTER ────────────────────────────────
+  - name: "footer"
+    label: "🔗 Footer & Sosial Media"
+    files:
+      - name: "footer"
+        label: "Footer"
+        file: "public/content/footer.json"
+        format: json
+        fields:
+          - { label: "Tagline", name: "tagline", widget: "text" }
+          - { label: "Copyright", name: "copyright", widget: "string", default: "© 2024 Pemerintahan Nagari Silongo" }
+          - { label: "URL Facebook", name: "facebook", widget: "string", required: false }
+          - { label: "URL Instagram", name: "instagram", widget: "string", required: false }
+          - { label: "URL YouTube", name: "youtube", widget: "string", required: false }
+          - { label: "URL Twitter/X", name: "twitter", widget: "string", required: false }

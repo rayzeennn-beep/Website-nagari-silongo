@@ -1,0 +1,58 @@
+{
+  "officials": [
+    {
+      "name": "H. Zulkifli",
+      "title": "Wali Nagari Silongo",
+      "initials": "HZ",
+      "period": "2021 – 2027",
+      "pendidikan": "S1 / Sarjana",
+      "isLeader": true,
+      "foto": ""
+    },
+    {
+      "name": "Ahmad Fauzi",
+      "title": "Sekretaris Nagari",
+      "initials": "AF",
+      "period": "2021 – 2027",
+      "pendidikan": "D3 / Sederajat",
+      "isLeader": false,
+      "foto": ""
+    },
+    {
+      "name": "Rudi Hartono",
+      "title": "Kepala Jorong Silongo",
+      "initials": "RH",
+      "period": "2021 – 2027",
+      "pendidikan": "SMA / Sederajat",
+      "isLeader": false,
+      "foto": ""
+    },
+    {
+      "name": "Budi Santoso",
+      "title": "Kepala Jorong Kampung Tengah",
+      "initials": "BS",
+      "period": "2021 – 2027",
+      "pendidikan": "SMA / Sederajat",
+      "isLeader": false,
+      "foto": ""
+    },
+    {
+      "name": "Syafril",
+      "title": "Kepala Jorong Sei Aro",
+      "initials": "SY",
+      "period": "2021 – 2027",
+      "pendidikan": "SMA / Sederajat",
+      "isLeader": false,
+      "foto": ""
+    },
+    {
+      "name": "Drs. Amrizal",
+      "title": "Ketua Bamus Nagari",
+      "initials": "AM",
+      "period": "2021 – 2027",
+      "pendidikan": "S1 / Sarjana",
+      "isLeader": false,
+      "foto": ""
+    }
+  ]
+}

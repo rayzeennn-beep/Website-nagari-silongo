@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "name": "Air Terjun Silongo",
+      "category": "Alam",
+      "description": "Air terjun alami yang tersembunyi di balik lebatnya hutan tropis Nagari Silongo. Dengan ketinggian sekitar 15 meter, suara gemuruh airnya menghadirkan suasana segar dan damai.",
+      "img": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?q=80&w=800&auto=format&fit=crop",
+      "distance": "2,5 km"
+    },
+    {
+      "name": "Rumah Gadang Sutan Rajo",
+      "category": "Budaya",
+      "description": "Rumah Gadang berusia lebih dari 100 tahun yang masih berdiri kokoh sebagai warisan leluhur Minangkabau. Arsitektur gonjong-nya yang khas menjadi saksi bisu sejarah nagari.",
+      "img": "https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?q=80&w=800&auto=format&fit=crop",
+      "distance": "0,3 km"
+    },
+    {
+      "name": "Sungai Batang Aro",
+      "category": "Alam",
+      "description": "Sungai jernih yang membelah nagari menjadi destinasi favorit untuk tubing, berenang, dan memancing. Airnya yang sejuk dan bersih berasal dari mata air pegunungan Bukit Barisan.",
+      "img": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?q=80&w=800&auto=format&fit=crop",
+      "distance": "1,0 km"
+    },
+    {
+      "name": "Kebun Teh Silongo",
+      "category": "Alam",
+      "description": "Hamparan kebun teh yang hijau membentang di lereng bukit, menawarkan pengalaman petik teh langsung dan panorama alam yang memukau pada pagi hari.",
+      "img": "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=800&auto=format&fit=crop",
+      "distance": "3,0 km"
+    },
+    {
+      "name": "Medan Nan Bapaneh",
+      "category": "Budaya",
+      "description": "Lapangan adat tempat diselenggarakannya berbagai upacara adat Minangkabau: batagak pangulu, pernikahan adat, dan festival randai yang meriah.",
+      "img": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=800&auto=format&fit=crop",
+      "distance": "0,1 km"
+    },
+    {
+      "name": "Pasar Tradisional Lubuk Tarok",
+      "category": "Kuliner",
+      "description": "Pasar mingguan yang ramai setiap hari Sabtu. Temukan aneka kuliner khas Minangkabau: rendang, sate pariaman, lamang tapai, dan berbagai hasil bumi segar dari para petani lokal.",
+      "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&auto=format&fit=crop",
+      "distance": "4,0 km"
+    }
+  ]
+}
